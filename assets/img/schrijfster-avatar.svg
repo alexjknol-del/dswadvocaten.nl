@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Illustratie van Nina Verschuur">
+  <title>Nina Verschuur</title>
+  <circle cx="120" cy="120" r="120" fill="#EFE6D3"/>
+  <circle cx="120" cy="132" r="86" fill="#F4C99B"/>
+  <path d="M40 150 Q34 60 120 52 Q206 60 200 150 Q198 116 150 108 Q140 128 118 112 Q98 130 78 108 Q46 118 40 150 Z" fill="#3A2A1E"/>
+  <path d="M46 118 Q40 150 48 176" fill="none" stroke="#3A2A1E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M194 118 Q200 150 192 176" fill="none" stroke="#3A2A1E" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#2B2118">
+    <ellipse cx="94" cy="140" rx="6.5" ry="8"/>
+    <ellipse cx="146" cy="140" rx="6.5" ry="8"/>
+  </g>
+  <g stroke="#8A5A3A" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M82 122 Q94 114 106 121"/>
+    <path d="M134 121 Q146 114 158 122"/>
+  </g>
+  <path d="M100 168 Q120 182 140 168" fill="none" stroke="#8A4B3A" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="76" cy="156" r="10" fill="#E8927A" opacity="0.5"/>
+  <circle cx="164" cy="156" r="10" fill="#E8927A" opacity="0.5"/>
+  <path d="M50 216 Q120 176 190 216 L190 240 L50 240 Z" fill="#12213A"/>
+  <path d="M96 210 Q120 224 144 210 L150 240 L90 240 Z" fill="#F7F5F0"/>
+  <circle cx="184" cy="70" r="15" fill="#C6A15B" opacity="0.4"/>
+  <circle cx="46" cy="82" r="9" fill="#C6A15B" opacity="0.3"/>
+</svg>
