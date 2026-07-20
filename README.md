@@ -17,7 +17,7 @@ De site komt in `site/`.
 
 ## Structuur
 - Eigen huisstijl: navy met brons/goud op een warme papieren ondergrond, Newsreader (serif) voor koppen en Inter voor lopende tekst.
-- Pagina's: home, over, rechtsgebieden (index + 10 detailpagina's), nieuws (index + 4 artikelen), aanbevolen advocatenkantoren (index + 2 profielen), schrijfster, contact, privacybeleid, cookiebeleid, 404.
+- Pagina's: home, over, rechtsgebieden (index + 15 detailpagina's), nieuws (index + 4 artikelen), aanbevolen advocatenkantoren (index + 12 profielen), schrijfster, contact, privacybeleid, cookiebeleid, 404.
 - Contact bestaat bewust alleen uit een mailto-link naar info@dswadvocaten.nl, zonder formulier.
 - De schrijfster (Nina Verschuur) is een bewust getekende, memoji-achtige illustratie, geen foto: `assets/img/schrijfster-avatar.svg`.
 
@@ -33,4 +33,4 @@ De site komt in `site/`.
 3. Draai `python3 build.py` opnieuw. Het artikel verschijnt automatisch op de homepage, in het nieuwsoverzicht en in de sitemap.
 
 ## Inhoud en bronnen
-De profielen van Advocatenkantoor Appelman en HuygenLammers Advocaten zijn door de redactie geschreven op basis van door de kantoren zelf gedeelde informatie (eigen website en Orde-registratie). De nieuwsartikelen zijn originele, door de redactie geschreven achtergrondteksten met een disclaimer dat het geen juridisch advies betreft.
+De profielen van Advocatenkantoor Appelman en HuygenLammers Advocaten zijn door de redactie geschreven op basis van publiek beschikbare informatie (eigen website van het kantoor en het register van de Nederlandse orde van advocaten). De nieuwsartikelen zijn originele, door de redactie geschreven achtergrondteksten met een disclaimer dat het geen juridisch advies betreft.

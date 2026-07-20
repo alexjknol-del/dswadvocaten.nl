@@ -151,6 +151,21 @@ RECHTSGEBIEDEN = [
  {"slug":"fiscaal-recht","naam":"Fiscaal recht en fiscaal strafrecht",
   "desc":"Procedures en geschillen met de Belastingdienst, van een boekenonderzoek tot fiscale vergrijpboetes en fiscaal-strafrechtelijke zaken.",
   "kantoren":["huygenlammers"]},
+ {"slug":"ondernemingsrecht-en-ma","naam":"Ondernemingsrecht en fusies & overnames",
+  "desc":"Juridische begeleiding bij bedrijfsovernames, fusies, joint ventures, herstructureringen en de dagelijkse juridische vraagstukken van ondernemingen.",
+  "kantoren":[]},
+ {"slug":"bancair-en-financieel-recht","naam":"Bancair en financieel recht",
+  "desc":"Financieringen, kapitaalmarkttransacties en regelgeving voor banken, verzekeraars en andere financiële instellingen.",
+  "kantoren":[]},
+ {"slug":"bestuursrecht-en-overheid","naam":"Bestuursrecht en overheid",
+  "desc":"Geschillen met en advisering van de overheid, van vergunningen en aanbestedingen tot toezicht en handhaving.",
+  "kantoren":[]},
+ {"slug":"intellectueel-eigendomsrecht","naam":"Intellectueel eigendomsrecht en technologie",
+  "desc":"Bescherming van merken, auteursrecht en octrooien, en juridische vraagstukken rond technologie, media en data.",
+  "kantoren":[]},
+ {"slug":"vastgoedrecht","naam":"Vastgoedrecht",
+  "desc":"Juridische begeleiding bij de aankoop, ontwikkeling, verhuur en financiering van commercieel en particulier vastgoed.",
+  "kantoren":[]},
 ]
 
 FIRMS = [
@@ -191,6 +206,125 @@ FIRMS = [
     ("Sparringpartner voor adviseurs","Naast directe cliënten werkt HuygenLammers Advocaten ook samen met belastingadviseurs en accountants, die het kantoor inschakelen als juridische sparringpartner bij complexe fiscale vraagstukken."),
   ],
   "situaties":["Boekenonderzoek Belastingdienst","FIOD-verhoor","Fiscale vergrijpboete","Bezwaar belastingaanslag"],
+ },
+ {"slug":"loyens-loeff","naam":"Loyens & Loeff","plaats":"Rotterdam","domain":"loyensloeff.com","website":"https://www.loyensloeff.com/","badge":"Grootste in belastingrecht",
+  "adres":"Blaak 31, 3011 GA Rotterdam","tel":"010 224 62 24","tel_href":"tel:+31102246224","email":"info@loyensloeff.com",
+  "tagline":"Internationaal recht- en belastingadvieskantoor, met Rotterdam als thuisbasis.",
+  "rechtsgebieden":["fiscaal-recht","ondernemingsrecht-en-ma","bancair-en-financieel-recht"],
+  "usps":["Ontstaan in 2000 uit een fusie tussen twee gerenommeerde kantoren.","Advocaten, fiscalisten en notarissen werken in dezelfde teams samen.","Eigen vestigingen in Nederland, België, Luxemburg en Zwitserland.","Regelmatig genoemd in de top van internationale kantoorranglijsten."],
+  "lead":"Loyens & Loeff is een internationaal recht- en belastingadvieskantoor met Rotterdam als thuisbasis en een tweede grote vestiging in Amsterdam. Het kantoor combineert juridisch en fiscaal advies in dezelfde teams, wat het in de Benelux een uitgesproken positie geeft op het snijvlak van beide.",
+  "secties":[
+    ("Recht en fiscaliteit in een team","Waar bij veel kantoren recht en belasting gescheiden praktijken zijn, werken advocaten, fiscalisten en notarissen bij Loyens & Loeff in dezelfde teams. Dat is met name waardevol bij transacties en structuren waar beide invalshoeken samenkomen."),
+    ("Internationale reikwijdte","Naast de vestigingen in de eigen thuismarkten Nederland, België, Luxemburg en Zwitserland is het kantoor aanwezig in belangrijke internationale financiële centra, wat grensoverschrijdende dossiers vereenvoudigt."),
+  ],
+  "situaties":["Bedrijfsovername","Herstructurering","Internationale belastingplanning","Kapitaalmarkttransactie"],
+ },
+ {"slug":"nautadutilh","naam":"NautaDutilh","plaats":"Amsterdam","domain":"nautadutilh.com","website":"https://www.nautadutilh.com/","badge":"Historie sinds 1724",
+  "adres":"Beethovenstraat 400, 1082 PR Amsterdam","tel":"020 717 10 00","tel_href":"tel:+31207171000","email":"info@nautadutilh.com",
+  "tagline":"Onafhankelijk kantoor met een geschiedenis die teruggaat tot 1724.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","bancair-en-financieel-recht","intellectueel-eigendomsrecht"],
+  "usps":["Een van de grootste onafhankelijke kantoren van de Benelux.","Advocaten, notarissen en fiscalisten onder één dak.","Vestigingen in Amsterdam, Rotterdam, Brussel, Londen, Luxemburg en New York.","Ruime ervaring met grote, spraakmakende transacties en procedures."],
+  "lead":"NautaDutilh is een onafhankelijk advocaten-, notaris- en belastingadvieskantoor met een geschiedenis die teruggaat tot 1724. Het kantoor behoort al jarenlang tot de grootste van Nederland en adviseert nationale en internationale organisaties op vrijwel elk rechtsgebied.",
+  "secties":[
+    ("Volledig dienstenpakket","Binnen NautaDutilh werken advocaten samen met notarissen en fiscalisten, waardoor complexe dossiers vanuit één kantoor juridisch, notarieel en fiscaal begeleid kunnen worden."),
+    ("Van transactie tot procedure","Het kantoor combineert een grote transactiepraktijk, onder meer op het gebied van fusies, overnames en beursgangen, met een gespecialiseerde procespraktijk voor geschillen die aan de rechter worden voorgelegd."),
+  ],
+  "situaties":["Fusie of overname","Beursgang","Financieringstransactie","Merken- en octrooigeschil"],
+ },
+ {"slug":"de-brauw-blackstone-westbroek","naam":"De Brauw Blackstone Westbroek","plaats":"Amsterdam","domain":"debrauw.com","website":"https://www.debrauw.com/","badge":"Toonaangevend in M&A",
+  "adres":"Burgerweeshuispad 201, 1076 GR Amsterdam","tel":"020 577 17 71","tel_href":"tel:+31205771771","email":"info@debrauw.com",
+  "tagline":"Internationaal georiënteerd kantoor, opgericht in 1871, sterk in transacties en procesvoering.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","bancair-en-financieel-recht"],
+  "usps":["Opgericht in 1871, een van de oudste kantoren van Nederland.","Vast onderdeel van grote, complexe overnames en beursgangen.","Sterke procespraktijk naast de transactiepraktijk.","Deel van een internationaal netwerk van gelijkgestemde kantoren in Europa."],
+  "lead":"De Brauw Blackstone Westbroek is een Amsterdams kantoor met een lange geschiedenis en een uitgesproken internationale praktijk. Het kantoor wordt regelmatig genoemd als een van de meest vooraanstaande van Nederland op het gebied van grote, complexe transacties en geschillen.",
+  "secties":[
+    ("Transacties op het hoogste niveau","Het kantoor begeleidt regelmatig grote, landelijk bekende overnames, fusies en beursgangen, waarbij cliënten variëren van beursgenoteerde ondernemingen tot investeringsmaatschappijen."),
+    ("Procesvoering als kernpraktijk","Naast advieswerk voert het kantoor een omvangrijke praktijk in geschillenbeslechting en regelgeving, met aandacht voor zowel de juridische inhoud als de strategische context van een zaak."),
+  ],
+  "situaties":["Grote bedrijfsovername","Beursgang","Handhavingskwestie","Complex handelsgeschil"],
+ },
+ {"slug":"houthoff","naam":"Houthoff","plaats":"Amsterdam","domain":"houthoff.com","website":"https://www.houthoff.com/","badge":"Full-service sinds 1939",
+  "adres":"Gustav Mahlerplein 50, 1082 MA Amsterdam","tel":"020 605 60 00","tel_href":"tel:+31206056000",
+  "tagline":"Onafhankelijk full-service kantoor met vestigingen in Amsterdam en Rotterdam.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","vastgoedrecht","bancair-en-financieel-recht"],
+  "usps":["Onafhankelijk full-service kantoor, sinds 1939 actief.","Sterke posities in ondernemingsrecht, bancair recht, vastgoed en herstructurering.","Vestigingen in Amsterdam, Rotterdam, Brussel, Londen en New York.","Werkt nauw samen met kantoren wereldwijd via een eigen netwerk."],
+  "lead":"Houthoff is een onafhankelijk Nederlands full-service kantoor met hoofdvestigingen in Amsterdam en Rotterdam. Het kantoor adviseert internationale ondernemingen, financiële instellingen en overheden bij complexe, vaak grensoverschrijdende vraagstukken.",
+  "secties":[
+    ("Breed en diep tegelijk","Door de omvang van het kantoor is specialistische kennis beschikbaar op vrijwel elk zakelijk rechtsgebied, van fusies en overnames tot vastgoed, herstructurering en geschillenbeslechting."),
+    ("Twee vestigingen, één praktijk","De vestigingen in Amsterdam en Rotterdam werken als één kantoor, wat cliënten in de volle breedte van het Nederlandse bedrijfsleven en de industrie bedient, inclusief de haven- en industriesector rond Rotterdam."),
+  ],
+  "situaties":["Herstructurering","Vastgoedtransactie","Financieringsovereenkomst","Fusie of overname"],
+ },
+ {"slug":"stibbe","naam":"Stibbe","plaats":"Amsterdam","domain":"stibbe.com","website":"https://www.stibbe.com/","badge":"Vooraanstaand sinds 1911",
+  "adres":"Beethovenplein 10, 1077 WM Amsterdam","tel":"020 546 06 06","tel_href":"tel:+31205460606",
+  "tagline":"Benelux full-service kantoor met een internationaal georiënteerde praktijk.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","bestuursrecht-en-overheid","bancair-en-financieel-recht"],
+  "usps":["Actief sinds 1911, met hoofdvestigingen in Amsterdam, Brussel en Luxemburg.","Combinatie van een grote adviespraktijk en gespecialiseerde procespraktijk.","Cliënten variëren van multinationals tot overheden en toezichthouders.","Sterke reputatie op het gebied van ondernemingsrecht en mededingingsrecht."],
+  "lead":"Stibbe is een Benelux full-service kantoor met een internationaal georiënteerde praktijk, met hoofdvestigingen in Amsterdam, Brussel en Luxemburg. Het kantoor adviseert grote organisaties, van multinationals tot overheden, op vrijwel elk zakelijk rechtsgebied.",
+  "secties":[
+    ("Advies en procesvoering","Naast een brede en gevarieerde adviespraktijk voert het kantoor een gespecialiseerde procespraktijk op een aantal gebieden, met de mogelijkheid om ook op korte termijn te schakelen."),
+    ("Drie landen, één kantoor","Door de gezamenlijke vestigingen in Nederland, België en Luxemburg kan het kantoor juridische vraagstukken die de landsgrenzen overschrijden vanuit één praktijk begeleiden."),
+  ],
+  "situaties":["Mededingingskwestie","Bestuursrechtelijke procedure","Herstructurering","Fusie of overname"],
+ },
+ {"slug":"akd","naam":"AKD","plaats":"Rotterdam","domain":"akd.nl","website":"https://www.akd.nl/","badge":"Grootste onafhankelijke Benelux-kantoren",
+  "adres":"Wilhelminakade 1, 3072 AP Rotterdam","tel":"088 253 50 00","tel_href":"tel:+31882535000","email":"info@akd.nl",
+  "tagline":"Full-service Beneluxkantoor met wortels die teruggaan tot 1917.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","vastgoedrecht","arbeidsrecht"],
+  "usps":["Een van de grootste onafhankelijke kantoren van de Benelux.","Vestigingen in Nederland, België en Luxemburg.","Nauwe samenwerking met notariaat en fiscalisten voor een compleet dienstenpakket.","Cliënten variëren van mkb tot grote nationale en internationale ondernemingen."],
+  "lead":"AKD is een full-service Beneluxkantoor met wortels die teruggaan tot 1917. Het kantoor combineert advocatuur met notariaat en fiscaal advies, en bedient cliënten van middelgrote ondernemingen tot overheden en internationale organisaties.",
+  "secties":[
+    ("Volledig dienstenpakket","Door de samenwerking tussen advocaten, notarissen en fiscalisten kan AKD een zaak van meerdere kanten tegelijk begeleiden, zonder dat een cliënt naar verschillende kantoren hoeft te stappen."),
+    ("Sterk verankerd in de regio","Met een vestiging aan de Rotterdamse haven is het kantoor goed vertegenwoordigd in vraagstukken rond transport, industrie en energie, naast een brede landelijke praktijk."),
+  ],
+  "situaties":["Herstructurering","Vastgoedontwikkeling","Reorganisatie en ontslag","Fusie of overname"],
+ },
+ {"slug":"cms-nederland","naam":"CMS Nederland","plaats":"Amsterdam","domain":"cms.law","website":"https://cms.law/nl/nld/","badge":"Onderdeel van internationaal netwerk",
+  "adres":"Parnassusweg 737, 1077 DG Amsterdam","tel":"020 301 63 01","tel_href":"tel:+31203016301","email":"receptie.amsterdam@cms-dsb.com","tagline":"Nederlandse tak van een internationale organisatie van advocatenkantoren.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","bestuursrecht-en-overheid","vastgoedrecht"],
+  "usps":["Onderdeel van CMS, actief in meer dan veertig landen.","Meer dan honderd jaar actief op de Nederlandse markt.","Combineert lokale kennis met internationaal bereik.","Breed dienstenpakket, van ondernemingsrecht tot vastgoed en bestuursrecht."],
+  "lead":"CMS Nederland is de Nederlandse tak van CMS, een internationale organisatie van advocatenkantoren die actief is in meer dan veertig landen. Het kantoor combineert diepgaande kennis van de Nederlandse markt met een wereldwijd netwerk.",
+  "secties":[
+    ("Lokaal advies, internationaal bereik","Cliënten met vraagstukken die meerdere landen raken, kunnen via het internationale CMS-netwerk in contact worden gebracht met specialisten in andere rechtsgebieden, zonder de lokale kennis te verliezen."),
+    ("Breed inzetbaar","Het kantoor adviseert op een groot aantal rechtsgebieden, van ondernemingsrecht en vastgoed tot bestuursrecht, wat het geschikt maakt voor uiteenlopende zakelijke vraagstukken."),
+  ],
+  "situaties":["Internationale transactie","Vastgoedontwikkeling","Vergunningskwestie","Fusie of overname"],
+ },
+ {"slug":"van-doorne","naam":"Van Doorne","plaats":"Amsterdam","domain":"vandoorne.com","website":"https://www.vandoorne.com/","badge":"Onafhankelijk zakelijk kantoor",
+  "adres":"Jachthavenweg 121, 1081 KM Amsterdam","tel":"020 678 91 23","tel_href":"tel:+31206789123",
+  "tagline":"Onafhankelijk kantoor, opgericht in 1930, gericht op de zakelijke markt.",
+  "rechtsgebieden":["ondernemingsrecht-en-ma","vastgoedrecht","arbeidsrecht"],
+  "usps":["Opgericht in 1930, met een lange positie in de Nederlandse advocatuur.","Advocaten, notarissen en fiscalisten werken in gezamenlijke teams.","Sectorgerichte teams, onder meer voor zorg en publiek-private samenwerking.","Onafhankelijk kantoor zonder internationale overkoepelende organisatie."],
+  "lead":"Van Doorne is een onafhankelijk Amsterdams kantoor dat zich richt op de zakelijke markt. Advocaten, notarissen en fiscalisten werken er in gezamenlijke teams voor de belangen van binnen- en buitenlandse cliënten.",
+  "secties":[
+    ("Sectorgerichte teams","Het kantoor werkt met teams die zich specifiek richten op sectoren zoals gezondheidszorg, publiek-private samenwerking en sport, naast bredere praktijkgroepen op het gebied van contracten en geschillenbeslechting."),
+    ("Onafhankelijke positie","Anders dan sommige branchegenoten maakt Van Doorne geen deel uit van een internationale overkoepelende organisatie, wat het kantoor de ruimte geeft zelfstandig samenwerkingen te kiezen per dossier."),
+  ],
+  "situaties":["Commercieel contract","Vastgoedtransactie","Reorganisatie","Fusie of overname"],
+ },
+ {"slug":"pels-rijcken","naam":"Pels Rijcken","plaats":"Den Haag","domain":"pelsrijcken.nl","website":"https://www.pelsrijcken.nl/","badge":"Nauw verbonden met de landsadvocaat",
+  "adres":"Bezuidenhoutseweg 57, 2594 AC Den Haag","tel":"070 515 30 00","tel_href":"tel:+31705153000","email":"info@pelsrijcken.nl",
+  "tagline":"Kantoor met een lange traditie in het adviseren van de overheid.",
+  "rechtsgebieden":["bestuursrecht-en-overheid","verbintenissenrecht"],
+  "usps":["Historisch nauw verbonden met de functie van landsadvocaat, de vaste juridisch adviseur van de Nederlandse Staat.","Sterke positie in bestuursrecht en geschillen met overheden.","Cliënten omvatten de centrale overheid, toezichthouders, provincies en gemeenten.","Ruime ervaring met complexe, maatschappelijk gevoelige zaken."],
+  "lead":"Pels Rijcken is een Haags kantoor met een lange traditie in het adviseren van de overheid. Het kantoor is historisch nauw verbonden met de functie van landsadvocaat, de vaste juridisch adviseur van de Nederlandse Staat, een functie die sinds 1879 bestaat.",
+  "secties":[
+    ("Overheid als vaste cliënt","Door de langdurige band met de rijksoverheid heeft het kantoor diepgaande ervaring met vraagstukken waar bestuursrecht, aansprakelijkheid en maatschappelijke belangen samenkomen."),
+    ("Ook voor decentrale overheden","Naast de rijksoverheid adviseert het kantoor provincies, gemeenten en toezichthouders, bijvoorbeeld bij aanbestedingen, vergunningen en handhavingskwesties."),
+  ],
+  "situaties":["Geschil met de overheid","Aanbestedingsprocedure","Aansprakelijkheidskwestie","Toezicht en handhaving"],
+ },
+ {"slug":"kennedy-van-der-laan","naam":"Kennedy Van der Laan","plaats":"Amsterdam","domain":"kvdl.com","website":"https://www.kvdl.com/","badge":"Specialist in media, IE en technologie",
+  "adres":"Molenwerf 16, 1014 BG Amsterdam","tel":"020 550 66 66","tel_href":"tel:+31205506666",
+  "tagline":"Onafhankelijk kantoor met een uitgesproken focus op technologie, media en data.",
+  "rechtsgebieden":["intellectueel-eigendomsrecht","arbeidsrecht"],
+  "usps":["Onafhankelijk kantoor, actief sinds 1992.","Sterke focus op technologie, dataprotectie en media.","Cliënten uit sectoren als mode, retail, zorg en energie.","Klein satellietkantoor in Eindhoven naast de vestiging in Amsterdam."],
+  "lead":"Kennedy Van der Laan is een onafhankelijk Amsterdams kantoor met een uitgesproken focus op technologie, dataprotectie en media. Het kantoor adviseert al meer dan dertig jaar internationale en Nederlandse organisaties met specialistische juridische kennis.",
+  "secties":[
+    ("Diepgang in technologie en media","Naast een brede zakelijke praktijk heeft het kantoor een herkenbare specialisatie in intellectueel eigendom, privacy en technologie, onderwerpen die in vrijwel elke sector steeds vaker spelen."),
+    ("Pragmatische adviesstijl","Het kantoor profileert zich met kernachtig en richtinggevend advies, gericht op praktisch bruikbare oplossingen in plaats van uitsluitend juridische volledigheid."),
+  ],
+  "situaties":["Datalek of privacygeschil","Merkinbreuk","Arbeidsconflict","Contract in de technologiesector"],
  },
 ]
 for _f in FIRMS:
@@ -332,7 +466,7 @@ def page_home():
              ("mail","Contact opnemen","Neem rechtstreeks contact op met het gekozen kantoor voor een kennismakingsgesprek.")]
     stap_html="".join(f'<div class="step"><div class="n">{i+1}</div><div><h3>{esc(t)}</h3><p>{esc(d)}</p></div></div>' for i,(ic,t,d) in enumerate(stappen))
     rg_html="".join(f'<div class="rg-card"><h3>{esc(r["naam"])}</h3><p>{esc(r["desc"])}</p></div>' for r in RECHTSGEBIEDEN[:6])
-    firm_html="".join(firm_card(f) for f in FIRMS)
+    firm_html="".join(firm_card(f) for f in FIRMS[:4])
     news_html="".join(news_card(a) for a in ARTICLES[:3])
     h=head("DSW Advocaten | de onafhankelijke gids voor juridische hulp",
       "DSW Advocaten helpt bij het vinden van de juiste advocaat en legt rechtsgebieden uit in gewone taal. Onafhankelijk, met aanbevolen advocatenkantoren per specialisatie.",path,ld)
@@ -346,8 +480,8 @@ def page_home():
       <a class="btn btn-ghost-light" href="/rechtsgebieden/">Verken de rechtsgebieden</a>
     </div>
     <div class="hero-stats">
-      <div><div class="n">10</div><div class="l">rechtsgebieden uitgelicht</div></div>
-      <div><div class="n">2</div><div class="l">aanbevolen kantoren</div></div>
+      <div><div class="n">15</div><div class="l">rechtsgebieden uitgelicht</div></div>
+      <div><div class="n">12</div><div class="l">aanbevolen kantoren</div></div>
       <div><div class="n">0</div><div class="l">euro voor het gebruik van deze gids</div></div>
     </div>
   </div>
@@ -380,9 +514,10 @@ def page_home():
     <div class="section-head">
       <span class="eyebrow">{IC['users']}Aanbevolen</span>
       <h2>Advocatenkantoren in de spotlight</h2>
-      <p class="lead">Twee kantoren die DSW Advocaten uitlicht vanwege hun specialisatie en aanpak.</p>
+      <p class="lead">Twaalf kantoren die DSW Advocaten uitlicht, van kleinere kantoren tot de meest toonaangevende namen van Nederland, elk met een eigen specialisatie.</p>
     </div>
     <div class="grid cols-2" style="align-items:stretch">{firm_html}</div>
+    <p style="margin-top:24px"><a class="more" href="/advocatenkantoren/">Alle twaalf kantoren bekijken {IC['arrow']}</a></p>
   </div>
 </section>
 
@@ -422,7 +557,7 @@ def page_over():
     <h2>Waarom deze gids bestaat</h2>
     <p>Een juridisch probleem komt zelden gelegen, en de stap naar een advocaat voelt voor veel mensen groot. Vaktaal, onduidelijkheid over kosten en de vraag welk kantoor bij een situatie past, zorgen voor drempelvrees. DSW Advocaten probeert die drempel te verlagen door heldere achtergrondinformatie te bieden en door een beperkt aantal kantoren voor te stellen, met uitleg over waar ze goed in zijn.</p>
     <h2>Hoe kantoren op de gids komen</h2>
-    <p>DSW Advocaten licht bewust een beperkt aantal kantoren uit, in plaats van een lange, onoverzichtelijke lijst te tonen. Een kantoor wordt opgenomen op basis van een duidelijke specialisatie of een aanpak die opvalt, zoals een sterke regionale positie of een uitgesproken focus op één rechtsgebied. De profielen worden door de redactie geschreven en beschrijven het kantoor op basis van door het kantoor zelf gedeelde informatie.</p>
+    <p>DSW Advocaten licht bewust een beperkt aantal kantoren uit, in plaats van een lange, onoverzichtelijke lijst te tonen. Een kantoor wordt opgenomen op basis van een duidelijke specialisatie of een aanpak die opvalt, zoals een sterke regionale positie of een uitgesproken focus op één rechtsgebied. De profielen worden door de redactie geschreven op basis van publiek beschikbare informatie, zoals de website van het kantoor en het register van de Nederlandse orde van advocaten. Opname op deze gids betekent niet dat een kantoor bij de totstandkoming ervan betrokken is.</p>
     <div class="callout"><p><strong>Onafhankelijke redactie, geen advies.</strong> DSW Advocaten is zelf geen advocatenkantoor, behandelt geen zaken en geeft geen juridisch advies over individuele situaties. De artikelen op deze site bieden algemene informatie; voor een concrete zaak blijft persoonlijk contact met een advocaat de aangewezen weg.</p></div>
     <h2>Wie er schrijft</h2>
     <p>De inhoud van DSW Advocaten wordt geschreven door de redactie, met als doel juridische onderwerpen begrijpelijk te maken zonder ze te versimpelen. Meer over de persoon achter de artikelen staat op de pagina over de redactie.</p>
@@ -550,11 +685,14 @@ def page_aanbieders_index():
 
 def page_firm(f):
     path=f"/advocatenkantoren/{f['slug']}/"; crumbs=[("Home","/"),("Aanbevolen kantoren","/advocatenkantoren/"),(f["naam"],path)]
-    ld=[{"@context":"https://schema.org","@type":"LegalService","@id":BASE+path,"name":f["naam"],"url":f["website"],"telephone":f["tel"],"email":f["email"],"address":f["adres"]},breadcrumb(crumbs)]
+    ld_firm={"@context":"https://schema.org","@type":"LegalService","@id":BASE+path,"name":f["naam"],"url":f["website"],"telephone":f["tel"],"address":f["adres"]}
+    if f.get("email"): ld_firm["email"]=f["email"]
+    ld=[ld_firm,breadcrumb(crumbs)]
     secs="".join(f"<h2>{esc(t)}</h2><p>{esc(d)}</p>" for t,d in f["secties"])
     usp="".join(f'<li>{IC["check"]}<span>{esc(u)}</span></li>' for u in f["usps"])
     tags="".join(f'<span class="rg-tag">{esc(n)}</span>' for n in f["rg_namen"])
     situ="".join(f'<span class="rg-tag">{esc(s)}</span>' for s in f["situaties"])
+    email_line = f'<p style="margin:.3em 0">E-mail: <a href="mailto:{f["email"]}">{esc(f["email"])}</a></p>' if f.get("email") else ""
     h=head(f"{f['naam']} in {f['plaats']} | {SITE}",
       f"{f['naam']} in {f['plaats']}. {f['tagline']} Profiel met specialisaties, aanpak en contactgegevens.",path,ld)
     h+=crumbs_html(crumbs)
@@ -572,10 +710,10 @@ def page_firm(f):
       <p><strong>Contact met {esc(f['naam'])}</strong></p>
       <p style="margin:.3em 0">{esc(f['adres'])}</p>
       <p style="margin:.3em 0">Telefoon: <a href="{f['tel_href']}">{esc(f['tel'])}</a></p>
-      <p style="margin:.3em 0">E-mail: <a href="mailto:{f['email']}">{esc(f['email'])}</a></p>
+      {email_line}
     </div>
     <p style="margin-top:22px"><a class="btn btn-navy" href="{f['website']}" target="_blank" rel="nofollow noopener">Naar {esc(f['domain'])} {IC['arrow']}</a> <a class="btn btn-ghost" href="/advocatenkantoren/">Terug naar alle kantoren</a></p>
-    <p class="disclaimer" style="margin-top:18px">Dit profiel is een redactionele weergave op basis van door {esc(f['naam'])} gedeelde informatie en vormt geen juridisch advies.</p>
+    <p class="disclaimer" style="margin-top:18px">Dit profiel is een redactionele weergave op basis van publiek beschikbare informatie en vormt geen juridisch advies. Opname op DSW Advocaten betekent niet dat {esc(f['naam'])} bij de totstandkoming van dit profiel betrokken is geweest.</p>
   </div>
 </section>"""
     h+=footer(); write(path,h)
