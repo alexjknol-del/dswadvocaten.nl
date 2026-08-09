@@ -36,7 +36,7 @@ IC = {
  "menu":'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>',
 }
 
-NAV = [("Home","/"),("Over","/over/"),("Rechtsgebieden","/rechtsgebieden/"),("Nieuws","/nieuws/"),("Aanbevolen kantoren","/advocatenkantoren/"),("Contact","/contact/")]
+NAV = [("Home","/"),("Over","/over/"),("Rechtsgebieden","/rechtsgebieden/"),("Nieuws","/nieuws/"),("Aanbevolen kantoren","/advocatenkantoren/"),("Partners","/partners/"),("Contact","/contact/")]
 
 def head(title, desc, path, ld=None):
     can = BASE + path
@@ -750,6 +750,25 @@ def page_schrijfster():
 </section>"""
     h+=footer(); write(path,h)
 
+
+def page_partners():
+    path="/partners/"; crumbs=[("Home","/"),("Partners",path)]
+    ld=[breadcrumb(crumbs),{"@context":"https://schema.org","@type":"WebPage","@id":BASE+path,"url":BASE+path,"name":"Partners","inLanguage":"nl-NL"}]
+    h=head("Partners | "+SITE,"Partners en bronnen waar DSW Advocaten naar verwijst.",path,ld)
+    h+=crumbs_html(crumbs)
+    h+=f"""<section class="section">
+  <div class="wrap prose">
+    <span class="eyebrow">Partners</span>
+    <h1>Partners en bronnen</h1>
+    <p class="lead">DSW Advocaten verwijst hier naar externe partners en bronnen.</p>
+    <div class="grid" style="grid-template-columns:repeat(2,1fr);gap:20px;margin-top:20px">
+    <div class="card"><h3>Van der Zwaard</h3><p>Van der Zwaard is een accountants- en belastingadvieskantoor in Den Haag, met dienstverlening voor ondernemers op het gebied van boekhouding, administratie en belastingadvies.</p><p style="margin-top:10px"><a href="https://www.vanderzwaard.nl" target="_blank" rel="noopener">accountantskantoor den haag</a></p></div>
+<div class="card"><h3>DLSA Letselschade Advocaten</h3><p>DLSA is gespecialiseerd in letselschade, onder meer voor (oud-)militairen met gezondheidsklachten door chroom-6 of PTSS, en begeleidt schadeclaims tegen Defensie.</p><p style="margin-top:10px"><a href="https://dlsa.nl/vragen-mip/" target="_blank" rel="noopener">hoogte invaliditeitspensioen abp</a></p></div>
+</div>
+  </div>
+</section>"""
+    h+=footer(); write(path,h)
+
 def page_contact():
     path="/contact/"; crumbs=[("Home","/"),("Contact",path)]
     ld=[breadcrumb(crumbs),{"@context":"https://schema.org","@type":"ContactPage","@id":BASE+path,"url":BASE+path,"name":"Contact","inLanguage":"nl-NL"}]
@@ -805,7 +824,7 @@ def not_found():
     open(os.path.join(OUT,"404.html"),"w",encoding="utf-8").write(h)
 
 def extras():
-    urls=["/","/over/","/rechtsgebieden/","/nieuws/","/advocatenkantoren/","/schrijfster/","/contact/","/privacybeleid/","/cookiebeleid/"]
+    urls=["/","/over/","/rechtsgebieden/","/nieuws/","/advocatenkantoren/","/schrijfster/","/partners/","/contact/","/privacybeleid/","/cookiebeleid/"]
     urls+=[f"/rechtsgebieden/{r['slug']}/" for r in RECHTSGEBIEDEN]
     urls+=[f"/nieuws/{a['slug']}/" for a in ARTICLES]
     urls+=[f"/advocatenkantoren/{f['slug']}/" for f in FIRMS]
@@ -832,7 +851,7 @@ def main():
     for a in ARTICLES: page_artikel(a)
     page_aanbieders_index()
     for f in FIRMS: page_firm(f)
-    page_schrijfster(); page_contact(); privacy(); cookies(); not_found(); extras()
+    page_schrijfster(); page_contact(); page_partners(); privacy(); cookies(); not_found(); extras()
     print("Build klaar in", OUT)
 
 if __name__=="__main__":
