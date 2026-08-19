@@ -336,6 +336,24 @@ def firms_for(rg_slug):
 DISCLAIMER = "Dit artikel geeft algemene informatie en is geen juridisch advies. Voor een inschatting van een persoonlijke situatie is het raadzaam een advocaat te raadplegen."
 
 ARTICLES = [
+ {"slug":'boekenonderzoek-belastingdienst-voorbereiding','titel':'Een boekenonderzoek van de Belastingdienst: wat er vooraf gaat',"cat":'Kosten en proces',"datum":'2026-08-19',"datum_nl":'19 augustus 2026','leestijd':5,
+  'excerpt':'Een controle begint zelden onaangekondigd. De voorbereiding bepaalt grotendeels hoe die verloopt.',
+  "body":[
+  ('p', 'Een aankondiging van een boekenonderzoek komt bij de meeste ondernemingen onverwacht, terwijl er in de aanloop vrijwel altijd een aanleiding is geweest: een afwijkende aangifte, een branchegerichte actie of een signaal uit een andere procedure.'),
+  ('h2', 'Wat een controle in de praktijk inhoudt'),
+  ('p', 'De controlerend ambtenaar beoordeelt of de aangiften aansluiten op de administratie. Dat betekent inzage in het grootboek, de bankmutaties, de facturen en vaak ook in de onderliggende correspondentie. De omvang wordt vooraf afgebakend in een controleopdracht, maar die afbakening kan tijdens het onderzoek verschuiven zodra er iets opvalt.'),
+  ('p', 'Belangrijk is het onderscheid tussen de inlichtingenplicht en het recht om te zwijgen. Voor de heffing bestaat een ruime plicht om gegevens te verstrekken. Zodra er sprake is van een mogelijke boete of een strafrechtelijk traject, verandert die positie wezenlijk. Wie dat onderscheid niet maakt, levert soms materiaal aan dat later tegen de onderneming wordt gebruikt.'),
+  ('h2', 'Voorbereiding die het verschil maakt'),
+  ('ul', ['De administratie op orde brengen voordat de controle begint, niet tijdens.', 'Vastleggen welke stukken zijn verstrekt en op welke datum.', 'Een vast aanspreekpunt binnen de organisatie aanwijzen.', 'Vragen schriftelijk laten stellen en schriftelijk beantwoorden.']),
+  ('p', 'Die laatste punten lijken formeel en voorkomen in de praktijk de meeste misverstanden. Een mondelinge toelichting die achteraf anders wordt begrepen, is lastig recht te zetten, zeker wanneer er maanden tussen zitten.'),
+  ('h2', 'Wanneer specialistische bijstand loont'),
+  ('plink', 'Zolang het gaat om een reguliere aansluiting tussen aangifte en administratie, kan de accountant het onderzoek doorgaans zelf begeleiden. Dat verandert wanneer er een correctie met boete in beeld komt, wanneer de vragen zich richten op de bedoeling achter een constructie, of wanneer de controleur doorvraagt op privé-uitgaven. Een gespecialiseerde advocaat, zoals te vinden bij <a href="https://www.huygenlammersadvocaten.nl/belastingrecht-advocaat" rel="nofollow">Huygen Lammers Advocaten</a>, beoordeelt in dat stadium welke informatie verstrekt moet worden en welke niet.'),
+  ('plink', 'Er is nog een moment waarop bijstand voor de hand ligt: wanneer de discussie zich verplaatst van de cijfers naar de uitleg van een regeling. Op dat punt gaat het niet meer om de administratie maar om de toepassing van het recht, en dat vraagt een ander soort onderbouwing. Wat een fiscaal advocaat daarin doet staat op <a href="https://www.huygenlammersadvocaten.nl/fiscaal-advocaat" rel="nofollow">huygenlammersadvocaten.nl</a>.'),
+  ('h2', 'De afronding'),
+  ('p', 'Het onderzoek eindigt met een controlerapport. Daarin staan de bevindingen en de voorgenomen correcties. Reageren op een concept van dat rapport is zinvol, omdat een feitelijke onjuistheid dan nog eenvoudig te herstellen is; na het opleggen van een aanslag verloopt dat via bezwaar en duurt het aanzienlijk langer.'),
+  ('p', 'Bewaar het rapport ook na afronding. Bij een volgende controle wordt er vrijwel altijd naar teruggegrepen, en afspraken die destijds zijn gemaakt over een werkwijze zijn dan het beste bewijs dat een keuze indertijd is besproken en geaccepteerd.'),
+  ("p", DISCLAIMER),
+ ]},
  {"slug":"wat-kost-een-advocaat","titel":"Wat kost een advocaat? Uurtarief, pro deo en gefinancierde rechtsbijstand uitgelegd",
   "cat":"Kosten en proces","datum":"2026-06-10","datum_nl":"10 juni 2026","leestijd":6,
   "excerpt":"De kosten van een advocaat lopen uiteen, en dat roept al snel drempelvrees op. Een overzicht van uurtarieven, pro deo en wat de prijs bepaalt.",
@@ -422,6 +440,7 @@ def render_body(blocks):
         elif b[0]=="h2": out.append(f"<h2>{esc(b[1])}</h2>")
         elif b[0]=="ul": out.append("<ul>"+"".join(f"<li>{esc(x)}</li>" for x in b[1])+"</ul>")
         elif b[0]=="callout": out.append(f'<div class="callout"><p>{esc(b[1])}</p></div>')
+        elif b[0]=="plink": out.append(f"<p>{b[1]}</p>")
     return "".join(out)
 
 def news_card(a):
