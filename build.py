@@ -783,6 +783,7 @@ def page_partners():
     <div class="grid" style="grid-template-columns:repeat(2,1fr);gap:20px;margin-top:20px">
     <div class="card"><h3>Van der Zwaard</h3><p>Van der Zwaard is een accountants- en belastingadvieskantoor in Den Haag, met dienstverlening voor ondernemers op het gebied van boekhouding, administratie en belastingadvies.</p><p style="margin-top:10px"><a href="https://www.vanderzwaard.nl" target="_blank" rel="noopener">accountantskantoor den haag</a></p></div>
 <div class="card"><h3>DLSA Letselschade Advocaten</h3><p>DLSA is gespecialiseerd in letselschade, onder meer voor (oud-)militairen met gezondheidsklachten door chroom-6 of PTSS, en begeleidt schadeclaims tegen Defensie.</p><p style="margin-top:10px"><a href="https://dlsa.nl/vragen-mip/" target="_blank" rel="noopener">hoogte invaliditeitspensioen abp</a></p></div>
+<div class="card"><h3>Werk in de Winkel</h3><p>Werk in de Winkel informeert werkgevers en werknemers in de detailhandel over actuele cao-ontwikkelingen en arbeidsvoorwaarden.</p><p style="margin-top:10px"><a href="https://www.werkindewinkel.nl/nieuws/nieuwe-cao-retail-non-food-4-keer-loonsverhoging-tot-eind-2027-wat-verandert-er-voor-jouo" target="_blank" rel="noopener">cao detailhandel 2026</a></p></div>
 </div>
   </div>
 </section>"""
