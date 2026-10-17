@@ -799,6 +799,7 @@ def page_partners():
 <div class="card"><h3>King nascholing</h3><p>King nascholing verzorgt de opleiding cognitieve gedragstherapie.</p><p style="margin-top:10px"><a href="https://www.kingnascholing.nl/opleidingen/cognitieve-gedragstherapie" target="_blank" rel="noopener">CGT opleiding</a></p></div>
 <div class="card"><h3>Axento</h3><p>Axento verzorgt vermogensbeheer voor particulieren en bedrijven.</p><p style="margin-top:10px"><a href="https://axento.nl/vermogensbeheer" target="_blank" rel="noopener">vermogensbeheer</a></p></div>
 <div class="card"><h3>Care IS</h3><p>Care IS verzorgt vermogensbeheer voor particulieren.</p><p style="margin-top:10px"><a href="https://care-is.nl/vermogensbeheer/particulier/" target="_blank" rel="noopener">Vermogensbeheer voor de particulier</a></p></div>
+<div class="card"><h3>AILF</h3><p>Agayev Immigration Law Firm is een advocatenkantoor gespecialiseerd in migratierecht.</p><p style="margin-top:10px"><a href="https://www.ailf.nl/" target="_blank" rel="noopener">AILF advocatenkantoor</a></p></div>
 </div>
   </div>
 </section>"""
